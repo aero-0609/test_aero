@@ -1,0 +1,110 @@
+/* General Page Setup */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fcfcfc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Navigation Styling */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    color: #111;
+}
+
+header p {
+    color: #666;
+    margin-top: 0;
+    font-style: italic;
+}
+
+nav {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Layout Elements */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center; /* Keeps text centered where the original used <center> */
+}
+
+/* Ecosystem list styling alignment */
+#ecosystem ul {
+    text-align: left;
+    display: inline-block;
+    max-width: 650px;
+}
+
+#ecosystem li {
+    margin-bottom: 10px;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #efefef;
+    font-weight: bold;
+}
+
+tr.striped {
+    background-color: #f2f2f2;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer a {
+    color: #0066cc;
+}
